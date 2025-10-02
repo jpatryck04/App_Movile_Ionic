@@ -57,6 +57,7 @@ Incluye un **menú interactivo** con funcionalidades que combinan **aprendizaje 
 ---
 
 ## 📂 Estructura del Proyecto
+
 /tarea3-ionic-vue
 │
 ├── src/
@@ -72,6 +73,7 @@ Incluye un **menú interactivo** con funcionalidades que combinan **aprendizaje 
 ├── public/ # Archivos estáticos (foto, QR)
 ├── package.json
 └── README.md
+
 
 
 
