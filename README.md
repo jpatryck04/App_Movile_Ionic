@@ -57,3 +57,39 @@ Incluye un **menú interactivo** con funcionalidades que combinan **aprendizaje 
 ---
 
 ## 📂 Estructura del Proyecto
+/tarea3-ionic-vue
+│
+├── src/
+│ ├── components/ # Componentes reutilizables
+│ ├── views/ # Vistas principales
+│ │ ├── Home.vue
+│ │ ├── Sumadora.vue
+│ │ ├── Traductor.vue
+│ │ ├── TablaMultiplicar.vue
+│ │ └── Experiencia.vue
+│ └── App.vue # Componente raíz
+│
+├── public/ # Archivos estáticos (foto, QR)
+├── package.json
+└── README.md
+
+
+
+---
+
+## ⚡ Tecnologías Utilizadas
+💻 **Framework:** IONIC 7 + Vue 3  
+📝 **Lenguaje:** JavaScript  
+🎨 **Estilos:** CSS  
+📹 **Video:** YouTube (incrustado en la app)  
+
+> 🎥 El video está subido a **YouTube** e incrustado directamente en la app para mostrar la **experiencia personal**.  
+
+---
+
+## 🏃‍♂️ Cómo Ejecutar la Aplicación
+1️⃣ Clonar el repositorio:  
+```bash
+git clone https://github.com/jpatryck04/App_Movile_Ionic.git
+cd tarea3-ionic-vue
+
