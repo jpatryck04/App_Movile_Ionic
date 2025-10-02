@@ -8,8 +8,6 @@
 **Matrícula:** 2023-1953  
 **Correo electrónico:** patryckyandelljimenez@gmai.com  
 
-<img src="src/assets/images/perfil.png" alt="Foto 2x2" width="150" height="250" style="object-fit: cover; border-radius: 8px; display:block; margin-top:8px; margin-bottom:8px;">
-
 ╚════════════════════════════╝
 ---
 
