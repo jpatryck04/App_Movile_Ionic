@@ -4,8 +4,8 @@
       <ion-menu content-id="main-content" type="overlay">
         <ion-content>
           <ion-list id="inbox-list">
-            <ion-list-header>Inbox</ion-list-header>
-            <ion-note>hi@ionicframework.com</ion-note>
+            <ion-list-header>Tarea3</ion-list-header>
+            <ion-note>Patryck Yandell Jimenez Ogando 2023-1953</ion-note>
 
             <ion-menu-toggle :auto-hide="false" v-for="(p, i) in appPages" :key="i">
               <ion-item @click="selectedIndex = i" router-direction="root" :router-link="p.url" lines="none" :detail="false" class="hydrated" :class="{ selected: selectedIndex === i }">
@@ -15,14 +15,7 @@
             </ion-menu-toggle>
           </ion-list>
 
-          <ion-list id="labels-list">
-            <ion-list-header>Labels</ion-list-header>
-
-            <ion-item v-for="(label, index) in labels" lines="none" :key="index">
-              <ion-icon aria-hidden="true" slot="start" :ios="bookmarkOutline" :md="bookmarkSharp"></ion-icon>
-              <ion-label>{{ label }}</ion-label>
-            </ion-item>
-          </ion-list>
+         
         </ion-content>
       </ion-menu>
       <ion-router-outlet id="main-content"></ion-router-outlet>
@@ -54,6 +47,11 @@ import {
   heartOutline,
   heartSharp,
   mailOutline,
+  homeOutline,
+  calculatorOutline,
+  languageOutline,
+  gridOutline,
+  videocamOutline,
   mailSharp,
   paperPlaneOutline,
   paperPlaneSharp,
@@ -66,41 +64,35 @@ import {
 const selectedIndex = ref(0);
 const appPages = [
   {
-    title: 'Inbox',
-    url: '/folder/Inbox',
-    iosIcon: mailOutline,
-    mdIcon: mailSharp,
+    title: 'Página Inicial',
+    url: '/home',
+    iosIcon: homeOutline,
+    mdIcon: homeOutline,
   },
   {
-    title: 'Outbox',
-    url: '/folder/Outbox',
-    iosIcon: paperPlaneOutline,
-    mdIcon: paperPlaneSharp,
+    title: 'Sumadora',
+    url: '/Calculator',
+    iosIcon: calculatorOutline,
+    mdIcon: calculatorOutline,
   },
   {
-    title: 'Favorites',
-    url: '/folder/Favorites',
-    iosIcon: heartOutline,
-    mdIcon: heartSharp,
+    title: 'Traductor',
+    url: '/Translator',
+    iosIcon: languageOutline,
+    mdIcon: languageOutline,
   },
   {
-    title: 'Archived',
-    url: '/folder/Archived',
-    iosIcon: archiveOutline,
-    mdIcon: archiveSharp,
+    title: 'Tabla de Multiplicar',
+    url: '/Multiplication',
+    iosIcon: gridOutline,
+    mdIcon: gridOutline,
   },
   {
-    title: 'Trash',
-    url: '/folder/Trash',
-    iosIcon: trashOutline,
-    mdIcon: trashSharp,
-  },
-  {
-    title: 'Spam',
-    url: '/folder/Spam',
-    iosIcon: warningOutline,
-    mdIcon: warningSharp,
-  },
+    title: 'Experiencia',
+    url: '/Experience',
+    iosIcon: videocamOutline,
+    mdIcon: videocamOutline,
+  }
 ];
 const labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
