@@ -3,12 +3,12 @@
 ---
 
 ## 👤 Información del Estudiante
-╔════════════════════════════╗  
+  
 **Nombre:** Patryck Yandell Jiménez Ogando  
 **Matrícula:** 2023-1953  
 **Correo electrónico:** patryckyandelljimenez@gmai.com  
 
-╚════════════════════════════╝
+
 ---
 
 ## 🚀 Descripción del Proyecto
